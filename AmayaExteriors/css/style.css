@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: darkslategray;
+    height: auto;
+    line-height: 100px;
+}
+
+.logo{
+    height: auto;
+}
+
+
+body{
+    background-color: darkslategrey;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+.logo img{
+    margin-top: 30px;
+}
+
+header nav ul li{
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: all 1.5s ease-in;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#carouselExampleIndicators{
+    width: auto;
+    height: 800px;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(..//image/house1.jpg);
+    background-size: 100% 100%; 
+}
+
+.img2{
+    background-image: url(..//image/house2.jpg);
+    background-size: 100% 100%; 
+}
+
+.img3{
+    background-image: url(..//image/house3.jpg);
+    background-size: 100% 100%; 
+}
+
+.img4{
+    background-image: url(..//image/house4.jpg);
+    background-size: 100% 100%; 
+}
+
+.img5{
+    background-image: url(..//image/house5.jpg);
+    background-size: 100% 100%; 
+}
+
+.slider, .slider ul, .slider ul li{
+    height: 1000px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.slider-carousel{
+    background-color: black;
+    height: auto;
+}
